@@ -1,0 +1,54 @@
+{
+  "name": "svelte-example",
+  "author": "Mark Phillips",
+  "version": "0.0.1",
+  "license": "LICENSE",
+  "engines": {
+    "node": "12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pleasemarkdarkly/svelte-example"
+  },
+  "scripts": {
+    "validate": "svelte-check && tsc --noEmit",
+    "dev": "svite -ts",
+    "build": "svite build -ts",
+    "prettier": "prettier --config .prettierrc 'src/**/*.ts' --write",
+    "lint": "yarn eslint . --ext .js,.jsx,.ts,.tsx ./src/**",
+    "git": "git add . && echo \"Enter your commit message =>\" && read && git commit -m \"$REPLY :octocat: :four_leaf_clover: :pray:\" && git push origin svelte-example"
+  },
+  "dependencies": {
+    "@types/page": "^1.11.1",
+    "firebase": "^0.900.12",
+    "fs": "^0.0.1-security",
+    "fs-readdir-promise": "^1.0.1",
+    "fsp": "^0.1.2",
+    "page": "^1.11.6",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@tsconfig/svelte": "^1.0.10",
+    "@types/node": "^14.14.24",
+    "@typescript-eslint/eslint-plugin": "^4.14.2",
+    "@typescript-eslint/parser": "^4.14.2",
+    "eslint": "^7.19.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-typescript": "^0.14.0",
+    "gray-matter": "^4.0.2",
+    "postcss": "^7.0.35",
+    "postcss-import": "^12.0.1",
+    "postcss-load-config": "^3.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "prettier": "^2.2.1",
+    "svelte": "^3.29.7",
+    "svelte-check": "^1.1.15",
+    "svelte-hmr": "^0.11.6",
+    "svelte-preprocess": "^4.6.1",
+    "svite": "^0.8.1",
+    "tailwindcss": "compat",
+    "tslib": "^2.0.3",
+    "typescript": "^4.1.3"
+  }
+}
