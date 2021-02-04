@@ -2,6 +2,13 @@
 
 Svelte, Typescript, Tailwind, Modular Firebase
 
+## Install
+
+```
+git clone ...
+yarn && yarn dev
+```
+
 ## Setup
 
 To set up the project with Typescript, Yarn, Tailwind, post install of Modular Firebase.
