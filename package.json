@@ -20,12 +20,11 @@
   },
   "dependencies": {
     "@types/page": "^1.11.1",
+    "file-saver": "^2.0.5",
     "firebase": "^0.900.12",
-    "fs": "^0.0.1-security",
-    "fs-readdir-promise": "^1.0.1",
-    "fsp": "^0.1.2",
     "page": "^1.11.6",
-    "path": "^0.12.7"
+    "pdfjs": "^2.4.2",
+    "pdfjs-dist": "^2.6.347"
   },
   "devDependencies": {
     "@tsconfig/svelte": "^1.0.10",
